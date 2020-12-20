@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Main.css">
+        <title>Main</title>
+    </head>
+    <body>
+        <div id="one">
+            <!-- sinup-->
+            <section>
+                <div class="main">
+                    <div class="form_container">
+                        <div class="back"></div>
+                        <span class="form_heading"> Sign up </span>
+                        <form action="" method="GET">
+                            <div class="input-group">
+                                <i class="fa fa-address-book-o" aria-hidden="true"></i>
+                                <input type="text" name="user_name"  placeholder="Enter your good name"/>
+                            </div>
+                            <div class="input-group">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <input type="email" name="email" placeholder="Enter your email-id"/>
+                            </div>
+                            <div class="input-group">
+                                <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                                <input type="password" name="password" placeholder="Enter password"/>
+                            </div>
+                            <div class="input-group">
+                                <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                                <input type="password" name="password" placeholder="Re-enter the password"/>
+                            </div>
+                            <div class="input-group">
+                                <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                <input type="text" name="contact_no" placeholder="Enter contact number"/>
+                            </div>
+                            <br/>
+                            <div class="radio_btn_group">
+                                <span id="abc" style="font-size: 20px; margin-left:4rem;"> Identiy Yourself </span> 
+                                <input type="radio" class="job_seeker" name="role" /> Job Seeker
+                                <input type="radio" class="job_provider" name="role" /> Job Provider
+                            </div>
+                            <input type="submit" value="Create Account" class="create_account_btn" />
+                            <div id="switch_login">
+                                Already have an account? <a href="./Login_Page.html"><span class="login_text">Login</span></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>  
+            </section>
+        </div>
+        <div id="two">
+            <!--employee Sinup-->
+            <div class="main">
+                <div class="image">
+                    <div class="tag_line">
+                        <div class="logo">
+                           <p>Work
+                                   &nbsp;'n'
+                                   Appoint </p> 
+                        </div>
+                        <h6 style="margin:10%; word-spacing: 2px;">The Only Way To Do GREAT WORK Is To LOVE What You Do</h6> 
+                    </div>
+                </div>
+                <div class="form_container"> 
+                    <h2 >Create Your Account</h2>
+                    <form method="GET" action="">
+                      <div class="input_group">
+                        <label>Gender</label>
+                        <div class="custom_select">
+                          <select>
+                            <option value="">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                          </select> 
+                        </div>     
+                      </div>
+                      <div class="input_group">
+                        <label>Date of Birth</label>
+                        <br/>
+                        <input type="date" class="dob" />
+                      </div>
+                      <div class="input_group">
+                        <label>Qualification</label>
+                        <div class="custom_select">
+                            <select>
+                                <option> Choose Your qualification</option>
+                                <option value="ten">10th</option>
+                                <option value="twelve">12th</option>
+                                <option value="diploma">Diploma</option>
+                                <option value="garduation">Graduation</option>
+                                <option value="post_graduation">Post Graduation</option>
+                            </select>
+                        </div>
+                      </div >
+                      <div class="input_group">
+                          <label>Specialization</label><br/>
+                            <input type="text" class="specialization" placeholder="e.g:- B.tech CSE" />
+                      </div>
+                      <div class="input_group">
+                          <label><b>Skills</b></label>
+                          <div class="checkbox_group">
+                              <input type="checkbox" value="c"/> C <br>
+                              <input type="checkbox" value="c++"/> C++ <br> 
+                              <input type="checkbox" value="java"/> Java <br>
+                              <input type="checkbox" value="python"/> Python <br>
+                              <input type="checkbox" value="html"/> HTML <br>
+                              <input type="checkbox" value="css"/> CSS <br>
+                              <input type="checkbox" value="js"/> Javascript<br>
+                              <input type="checkbox" value="cloud_computing"/> Cloud computing<br>
+                              <input type="checkbox" value="django"/> Django <br>
+                              <input type="checkbox" value="react_js"/> React.js<br>
+                              <input type="checkbox" value="node_js"/> Node.js<br>
+                              <input type="checkbox" value="machine_learning"/> Machine Learning<br>
+                              <input type="checkbox" value="flutter" /> Flutter<br>
+                              <input type="checkbox" value="php"/> PHP<br>
+                              <input type="checkbox" value="angular"/> Angular<br>
+                              <input type="checkbox" value="mern_stack"/> MERN<br>
+                              <input type="checkbox" value="mean_stack" /> MEAN <br>
+                          </div>
+                      </div>
+                      <div class="input_group">
+                        <label>Years of experience </label>
+                        <input type="number" min="1" max="100" step="1"? />
+                      </div>
+                      <div class="input_group">
+                        <label>Address </label><br/>
+                        <input type="text" placeholder="City"/><br><br>
+                        <div class="custom_select">
+                            <select>
+                              <option value="">Select Country</option>
+                              <option value="india">India</option>
+                              <option value="usa">USA</option>
+                              <option value="china">China</option>
+                              <option value="japan">Japan</option>
+                              <option value="brazil">Brazil</option>
+                              <option value="nepal">Nepal</option>
+                              <option value="canada">Canada</option>
+                              <option value="germany">Germany</option>
+                              <option value="australia">Australia</option>
+                              <option value="sri_lanka">Sri Lanka</option>
+                              <option value="Bangladesh">Bangladesh</option>
+                            </select> 
+                        </div>
+                      </div>
+                      <div class="input_group">
+                        <input type="checkbox" name="t&c" style=" margin-right: 4px; width:20px;"/>
+                        <a class="t&c_anchor" href="">Accept the terms and conditions. </a>
+                      </div>
+                      <input type="submit" value="Sign Up" id="sign_up_btn" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="three">
+            <!--Employeer Sinup-->
+            <div class="main">
+                <div class="top_background">
+                     <span class="heading">Create Account</span>
+                </div>
+                <form>
+                    <div class="form">
+                        <div class="input_group">
+                            <label>Company Name</label><br/>
+                            <input type="text" name="company_name"/>
+                        </div>
+                        <div class="text_area">
+                            <label><b>Company's Description</b></label><br/>
+                            <textarea class="desc" name="description"> </textarea>
+                        </div>
+                        <div class="input_group">
+                            <label>Certifications (if any)</label><br>
+                            <input type="text" name="certifications"/>
+                        </div>
+                        <div class="input_group">
+                            <label>Years in Business</label><br/>
+                            <input type="number" name="years_in_business" min="0" max="100"/>
+                        </div>
+                        <div class="address">
+                            <label>Address</label>
+                            <br/>
+                            <input type="text" name="street_address"/>
+                            <br><label>Street Address</label>
+                            <br/>
+                            <input type="text" name="city" style="width:40%"> 
+                            <select class="country">
+                                <option value="">Select Country</option>
+                                <option value="india">India</option>
+                                <option value="usa">USA</option>
+                                <option value="china">China</option>
+                                <option value="japan">Japan</option>
+                                <option value="brazil">Brazil</option>
+                                <option value="nepal">Nepal</option>
+                                <option value="canada">Canada</option>
+                                <option value="germany">Germany</option>
+                                <option value="australia">Australia</option>
+                                <option value="sri_lanka">Sri Lanka</option>
+                                <option value="Bangladesh">Bangladesh</option>
+                              </select> 
+                            <br>
+                            <label>City</label>
+                            <label style="margin-left: 40%;" >Country</label>
+                        </div>
+                        <div class="input_group">
+                            <input type="checkbox" name="t&c" style=" margin-right:4px; width:20px;"/>
+                            <a class="t&c_anchor" href="">Accept the terms and conditions. </a>
+                        </div>
+                        <input type="submit" value="Sign Up" id="sign_up_btn" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
